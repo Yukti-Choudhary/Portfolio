@@ -1,0 +1,43 @@
+.about {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  animation: showAbout 0.5s ease-in forwards;
+}
+
+@keyframes showAbout {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.about__details {
+  margin-top: 100px;
+  margin-left: 11vw;
+  width: 60vw;
+  font-size: 3vw;
+  color: white;
+}
+
+.about__contact {
+  margin-left: 11vw;
+  margin-top: 50px;
+}
+
+.about__contact a {
+  color: rgba(253, 249, 249, 0.642);
+  margin-right: 35px;
+  cursor: pointer;
+}
+.about__contact a:hover {
+  color: rgb(128, 126, 126);
+  transition: color 0.15s ease-in;
+}

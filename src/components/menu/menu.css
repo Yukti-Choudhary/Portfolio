@@ -1,0 +1,47 @@
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  animation: showMenu 0.5s ease-in forwards;
+}
+
+@keyframes showMenu {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.menu a{
+  text-decoration: none;
+  margin-top: 25px;
+  margin-left: 5.2vw;
+  overflow: hidden;
+}
+
+.menu span {
+  margin-top: 25px;
+  text-align: end;
+  margin-left: 68vw;
+  margin-right: 16vw;
+  font-size: 3vw;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.menu span:first-of-type {
+  margin-top: 200px;
+}
+
+.menu span:hover {
+  color: rgb(178, 175, 175);
+  transition: color 0.15s ease-in;
+}

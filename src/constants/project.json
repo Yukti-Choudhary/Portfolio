@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "name": "Youtube-Clone",
+    "img": "./images/youtube.png",
+    "link": "https://clone-742a9.web.app/",
+    "details": [
+      {
+        "id": 11,
+        "title": "• Dynamic YouTube Clone :",
+        "info": "Used ''YOUTUBE API'' to fetch and display real-time video content accompanied with ''SHIMMER UI''."
+      },
+      {
+        "id": 12,
+        "title": "• User-Centric Functionality :",
+        "info": "Integrated Firebase for ''USER AUTHENTICATION'', enabling users to signin and like videos using ''CUSTOM HOOK''."
+      },
+      {
+        "id": 13,
+        "title": "• Search :",
+        "info": "Implemented an efficient search functionality with ''AUTOCOMPLETE'', ''DEBOUNCING'', ''CACHING'', and a dedicated search page for improved user experience."
+      },
+      {
+        "id": 14,
+        "title": "• Enhanced Video Interaction :",
+        "info": "Designed ''NESTED COMMENTS'' with ''LIVE CHAT'' functionality within the video watch section."
+      },
+      {
+        "id": 15,
+        "title": "• Technologies Used :",
+        "info": "React JS, React-Router-DOM, Redux Toolkit, CSS, and CSS3."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Netflix-Clone",
+    "img": "./images/netflix.png",
+    "link": "https://netflix-clone-7n9cartuz-yukti-choudhary.vercel.app/",
+    "details": [
+      {
+        "id": 21,
+        "title": "• Utilized Compound Components :",
+        "info": " Designed a modular and extensible UI using ''COMPOUND COMPONENTS'', with ''SIGNIN'' and ''SIGNUP'' pages."
+      },
+      {
+        "id": 22,
+        "title": "• Firebase Integration :",
+        "info": "Integrated Firebase for ''USER AUTHENTICATION'' and ''DATABASE FUNCTIONALITIES, enabling secure user access and efficient data management."
+      },
+      {
+        "id": 23,
+        "title": "• Fuse.js Live Search :",
+        "info": "Implemented Fuse.js for ''REAL-TIME SEARCH'' functionality, enhancing user experience."
+      },
+      {
+        "id": 24,
+        "title": "• Protected Routes :",
+        "info": "Established ''PROTECTED ROUTES'' to restrict access to authenticated users."
+      },
+      {
+        "id": 25,
+        "title": "• React Portal Integration :",
+        "info": "Employed ''REACT PORTALS'' to render the Watch Page, providing responsive video playback experience."
+      },
+      {
+        "id": 26,
+        "title": "• Technologies Used :",
+        "info": "React JS, React-Router-DOM, Styled-Component, and Redux Toolkit."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Ecommerce-Site",
+    "img": "./images/ecommerce.png",
+    "link": "https://ecommerce-store-ten-tawny.vercel.app/",
+    "details": [
+      {
+        "id": 31,
+        "title": "• Redux Toolkit Integration :",
+        "info": "Implemented Redux Toolkit for efficient state management, enabling seamless cart operations, including ''ADDING'', ''REMOVING'', and ''DELETING'' items."
+      },
+      {
+        "id": 32,
+        "title": "• Search Functionality :",
+        "info": " Designed and integrated a robust product search functionality, enhancing user experience with efficient product discovery."
+      },
+      {
+        "id": 33,
+        "title": "• Product Details and Cart Integration :",
+        "info": "Created individual product pages with ''Size and Color'' selection with ''Add to Cart'' feature, streamlining the shopping experience."
+      },
+      {
+        "id": 34,
+        "title": "• Filtering and Sorting :",
+        "info": " Developed a feature-rich product rendering page with various filters, enabling users to refine search results by SIZE, COLOR, GENDER, and PRICE."
+      },
+      {
+        "id": 35,
+        "title": "• Technologies Used :",
+        "info": "React JS, React-Router-DOM, Redux Toolkit, CSS, and CSS3."
+      }
+    ]
+  }
+]

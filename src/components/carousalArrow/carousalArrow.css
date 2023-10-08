@@ -1,0 +1,15 @@
+.carousal {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousal__back {
+  cursor: pointer;
+  margin-left: 3vw;
+}
+
+.carousal__next {
+  cursor: pointer;
+  margin-right: 3vw;
+}
