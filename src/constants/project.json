@@ -7,27 +7,18 @@
     "details": [
       {
         "id": 11,
-        "title": "• Dynamic YouTube Clone :",
-        "info": "Used ''YOUTUBE API'' to fetch and display real-time video content accompanied with ''SHIMMER UI''."
+        "info": "Developed a dynamic YouTube clone with real-time video content using the ''YouTube API'' and ''SHIMMER UI''."
       },
       {
         "id": 12,
-        "title": "• User-Centric Functionality :",
-        "info": "Integrated Firebase for ''USER AUTHENTICATION'', enabling users to signin and like videos using ''CUSTOM HOOK''."
+        "info": "Integrated Firebase for ''USER AUTHENTICATION'', enabling likes via ''CUSTOM HOOKS''. Optimized search with ''AUTOCOMPLETE'', ''DEBOUNCING'', ''CACHING'', and ''MEMOIZATION''."
       },
       {
         "id": 13,
-        "title": "• Search :",
-        "info": "Implemented an efficient search functionality with ''AUTOCOMPLETE'', ''DEBOUNCING'', ''CACHING'', and a dedicated search page for improved user experience."
+        "info": " Enhanced video interaction with ''NESTED COMMENTS'' and ''LIVE CHAT''."
       },
       {
         "id": 14,
-        "title": "• Enhanced Video Interaction :",
-        "info": "Designed ''NESTED COMMENTS'' with ''LIVE CHAT'' functionality within the video watch section."
-      },
-      {
-        "id": 15,
-        "title": "• Technologies Used :",
         "info": "React JS, React-Router-DOM, Redux Toolkit, CSS, and CSS3."
       }
     ]
@@ -36,7 +27,7 @@
     "id": 2,
     "name": "Netflix-Clone",
     "img": "./images/netflix.png",
-    "link": "https://netflix-clone-7n9cartuz-yukti-choudhary.vercel.app/",
+    "link": "https://watchwhiz-98581.web.app/",
     "details": [
       {
         "id": 21,
@@ -78,27 +69,14 @@
     "details": [
       {
         "id": 31,
-        "title": "• Redux Toolkit Integration :",
-        "info": "Implemented Redux Toolkit for efficient state management, enabling seamless cart operations, including ''ADDING'', ''REMOVING'', and ''DELETING'' items."
+        "info": "Utilized Redux Toolkit for streamlined cart management: ''ADDING'', ''REMOVING'', and ''DELETING'' items. "
       },
       {
         "id": 32,
-        "title": "• Search Functionality :",
-        "info": " Designed and integrated a robust product search functionality, enhancing user experience with efficient product discovery."
+        "info": "Implemented efficient product search, individual product pages with Size and Color selection, and comprehensive filtering for ''SIZE'', ''COLOR'', ''GENDER'', and ''PRICE''."
       },
       {
         "id": 33,
-        "title": "• Product Details and Cart Integration :",
-        "info": "Created individual product pages with ''Size and Color'' selection with ''Add to Cart'' feature, streamlining the shopping experience."
-      },
-      {
-        "id": 34,
-        "title": "• Filtering and Sorting :",
-        "info": " Developed a feature-rich product rendering page with various filters, enabling users to refine search results by SIZE, COLOR, GENDER, and PRICE."
-      },
-      {
-        "id": 35,
-        "title": "• Technologies Used :",
         "info": "React JS, React-Router-DOM, Redux Toolkit, CSS, and CSS3."
       }
     ]

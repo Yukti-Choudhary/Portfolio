@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import { BiLogoGmail, BiLogoLinkedin } from "react-icons/bi";
+import { BiLogoGmail, BiLogoLinkedin, BiLogoGithub } from "react-icons/bi";
 
 const About = () => {
   return (
@@ -18,12 +18,19 @@ const About = () => {
           href="https://www.linkedin.com/in/yukti-choudhary-649a05139/"
           target="_blank"
         >
-          <BiLogoLinkedin size={20} />
+          <BiLogoLinkedin size={20} title="LinkedIn" />
         </a>
         <a href="mailto:yuktichoudhary09@gmail.com">
-          <BiLogoGmail size={20} />
+          <BiLogoGmail size={20} title="Gmail" />
         </a>
-      </div> 
+        <a
+          rel="noreferrer"
+          href="https://github.com/Yukti-Choudhary?tab=repositories"
+          target="_blank"
+        >
+          <BiLogoGithub size={20} title="GitHub" />
+        </a>
+      </div>
     </div>
   );
 };

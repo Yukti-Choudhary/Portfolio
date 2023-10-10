@@ -67,14 +67,15 @@
 .project__datailsMain ul li {
   margin-bottom: 10px;
 }
-.project__datailsMain ul li h4 {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  text-decoration-thickness: 0.5px;
-}
+
 .project__datailsMain ul li p {
   margin-left: 13px;
 }
+
+.project__datailsMain ul li:last-child {
+ margin-top: 30px;
+}
+
 .project__icons {
   position: absolute;
   bottom: 30px;
@@ -97,6 +98,7 @@
 
   .project__datailsMain a img {
     height: 30vw;
+    margin-bottom: 20px;
   }
   .project__datails div h1 {
     margin-left: 5vw;

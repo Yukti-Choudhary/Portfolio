@@ -24,7 +24,7 @@ const Project = () => {
 
   return (
     <div className="project">
-      <video src="./video.mp4" muted autoPlay loop/>
+      <video src="./video.mp4" muted autoPlay loop />
       <div className="project__datails" ref={boxRef}>
         {project.map((list) => {
           return (
@@ -38,7 +38,6 @@ const Project = () => {
                   {list.details.map((item) => {
                     return (
                       <li key={item.id}>
-                        <h4>{item.title}</h4>
                         <p>{item.info}</p>
                       </li>
                     );

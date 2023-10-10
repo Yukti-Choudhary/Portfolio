@@ -1,10 +1,11 @@
 import About from "../about";
 import Menu from "../menu";
 import "./home.css";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const Home = () => {
   const [about, setAbout] = useState(true);
+  const [loading, setLoading] = useState(true);
   const [showAbout, setShowAbout] = useState(false);
   const [menu, setMenu] = useState(true);
   const [showMenu, setShowMenu] = useState(false);
@@ -30,7 +31,17 @@ const Home = () => {
     setAboutOpacity(!aboutOpacity);
   };
 
-  return (
+  useEffect(() => {
+    const i = setTimeout(() => {
+      setLoading(false);
+    }, 1500);
+
+    return () => clearTimeout(i);
+  }, []);
+
+  return loading ? (
+    <div className="home__loading">Y</div>
+  ) : (
     <div className="home">
       <video src="./video.mp4" autoPlay loop muted />
       {showName && (
