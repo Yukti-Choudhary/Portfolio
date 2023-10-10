@@ -73,7 +73,7 @@
 }
 
 .project__datailsMain ul li:last-child {
- margin-top: 30px;
+  margin-top: 30px;
 }
 
 .project__icons {
@@ -103,7 +103,7 @@
   .project__datails div h1 {
     margin-left: 5vw;
   }
-  
+
   .project__datailsMain ul {
     padding-right: 3vw;
     margin-top: 10px;

@@ -31,32 +31,18 @@
     "details": [
       {
         "id": 21,
-        "title": "• Utilized Compound Components :",
-        "info": " Designed a modular and extensible UI using ''COMPOUND COMPONENTS'', with ''SIGNIN'' and ''SIGNUP'' pages."
+        "info": "Built Netflix clone with ''SIGN-IN'' and ''SIGN-UP'' pages using Firebase ''USER AUTHENTICATION''."
       },
       {
         "id": 22,
-        "title": "• Firebase Integration :",
-        "info": "Integrated Firebase for ''USER AUTHENTICATION'' and ''DATABASE FUNCTIONALITIES, enabling secure user access and efficient data management."
+        "info": "Enabled ''REAL-TIME SEARCH'' page with ''ERROR HANDLING'' and ''MULTI-LANGUAGE SUPPORT'' and browse page displaying movies via TMDB API."
       },
       {
         "id": 23,
-        "title": "• Fuse.js Live Search :",
-        "info": "Implemented Fuse.js for ''REAL-TIME SEARCH'' functionality, enhancing user experience."
+        "info": "And lastly implemented ''PROTECTED ROUTES'' to restrict access to authenticated users."
       },
       {
         "id": 24,
-        "title": "• Protected Routes :",
-        "info": "Established ''PROTECTED ROUTES'' to restrict access to authenticated users."
-      },
-      {
-        "id": 25,
-        "title": "• React Portal Integration :",
-        "info": "Employed ''REACT PORTALS'' to render the Watch Page, providing responsive video playback experience."
-      },
-      {
-        "id": 26,
-        "title": "• Technologies Used :",
         "info": "React JS, React-Router-DOM, Styled-Component, and Redux Toolkit."
       }
     ]
